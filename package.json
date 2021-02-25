@@ -1,10 +1,10 @@
 {
-  "name": "productapp",
+  "name": "studentapp",
   "version": "1.0.0",
-  "description": "product",
+  "description": "student",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [
     "product"

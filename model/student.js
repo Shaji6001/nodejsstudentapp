@@ -3,13 +3,13 @@ var mongoose = require("mongoose")
 
 var studentSchema= new mongoose.Schema({
     Name:{type:String},
-    Rollno:{type:Number},
-    Admissionno:{type:Number},
+    Rollno:{type:String},
+    Admissionno:{type:String},
     College:{type:String},
     Address:{type:String}
 
 })
 
-var pupilModel= new mongoose.model("pupils", studentSchema)
+var pupilModel= mongoose.model("pupils", studentSchema)
 
 module.exports={pupilModel}
